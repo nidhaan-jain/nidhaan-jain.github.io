@@ -364,7 +364,7 @@ footer {
     }
 
     .home-layout {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 2rem;
     }
 
