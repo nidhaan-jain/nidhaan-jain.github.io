@@ -160,6 +160,11 @@ main {
     margin-right: 0.5rem;
 }
 
+.bluesky-icon {
+    vertical-align: middle;
+    margin-right: 0.4rem;
+}
+
 /* About section */
 .about-section {
     max-width: 700px;
