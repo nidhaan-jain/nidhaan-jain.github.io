@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nidhaanjain.github.io/sitemap.xml
