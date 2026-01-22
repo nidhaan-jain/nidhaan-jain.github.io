@@ -72,6 +72,27 @@ main {
     padding: 2rem;
 }
 
+/* Homepage two-column layout */
+.home-layout {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    padding-top: 2rem;
+}
+
+.home-layout .about-section {
+    flex: 1;
+    margin: 0;
+    max-width: none;
+}
+
+.home-layout .profile-section {
+    flex-shrink: 0;
+    width: 250px;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
 /* Homepage layout */
 .profile-section {
     display: flex;
@@ -340,6 +361,15 @@ footer {
 
     main {
         padding: 1.5rem;
+    }
+
+    .home-layout {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .home-layout .profile-section {
+        width: 100%;
     }
 
     .profile-image img {
