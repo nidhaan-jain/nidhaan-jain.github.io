@@ -211,8 +211,6 @@ main {
 
 .paper {
     margin-bottom: 1.5rem;
-    padding-left: 1rem;
-    border-left: 3px solid #e5e5e5;
 }
 
 .paper-title {
@@ -223,7 +221,6 @@ main {
 
 .paper-authors {
     color: #666;
-    font-style: italic;
     margin-bottom: 0.5rem;
 }
 
