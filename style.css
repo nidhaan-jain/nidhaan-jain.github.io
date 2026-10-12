@@ -104,8 +104,8 @@ main {
 }
 
 .profile-image img {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 320px;
     object-fit: cover;
 }
 
@@ -372,8 +372,8 @@ footer {
     }
 
     .profile-image img {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 240px;
     }
 
     .cv-item {
