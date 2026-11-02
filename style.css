@@ -217,6 +217,11 @@ main {
     margin-bottom: 0.25rem;
 }
 
+.paper-note {
+    display: block;
+    font-size: 0.85em;
+}
+
 .paper-authors {
     color: #666;
     margin-bottom: 0.5rem;
