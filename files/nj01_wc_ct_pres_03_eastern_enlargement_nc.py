@@ -32,8 +32,8 @@ RESULTS = {
     2019: (-0.0103010, -0.0148360, -0.0057661),
 }
 
-YTICKS = [0.005, 0, -0.005, -0.01, -0.015]
-YTICK_LABELS = [".005", "0", "-.005", "-.01", "-.015"]  # Stata number format
+YTICKS = [0.015, 0.01, 0.005, 0, -0.005, -0.01, -0.015]
+YTICK_LABELS = [".015", ".01", ".005", "0", "-.005", "-.01", "-.015"]  # Stata number format
 
 years = list(RESULTS)
 coefs = [RESULTS[y][0] for y in years]
@@ -58,13 +58,14 @@ for year, (_, low, high) in RESULTS.items():
 ax.plot(years, coefs, color="black", linewidth=1.0, marker="o", markersize=7, zorder=3)
 
 ax.set_xlim(2004.82, 2019.18)
-ax.set_ylim(-0.0164, 0.0056)
+ax.set_ylim(-0.0164, 0.0164)
 ax.set_xticks(years)
 ax.set_yticks(YTICKS)
 ax.set_yticklabels(YTICK_LABELS)
 ax.tick_params(labelsize=15, length=7, width=1.0)
 ax.set_xlabel("Year", fontsize=16, labelpad=8)
-ax.set_ylabel("Share of Eastern Enlargement workers", fontsize=16, labelpad=10)
+ax.set_ylabel("Share of workers", fontsize=16, labelpad=10)
+ax.set_title("Share of workers in the firm from 2004 EU entrant countries", fontsize=19, pad=14)
 
 for side in ("top", "right"):
     ax.spines[side].set_visible(False)
