@@ -194,6 +194,12 @@ main {
     border-bottom: 2px solid #0066cc;
 }
 
+.teaching-note {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
 /* Research page */
 .research-section {
     margin-bottom: 2.5rem;
